@@ -1,0 +1,1 @@
+“A full-stack app that lets users upload PDFs and ask questions, with answers grounded in the documents and cited by page.”
