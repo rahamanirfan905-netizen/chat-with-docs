@@ -44,7 +44,7 @@ Question: {question}"""
 
     return generate_with_retry(prompt), sorted(set(pages))
 
-question = "What is the OSI model?"
+question = "What are the layers of the OSI model?"
 answer, pages = ask(question)
 print("\nAnswer:", answer)
 print("Sources: pages", pages)
